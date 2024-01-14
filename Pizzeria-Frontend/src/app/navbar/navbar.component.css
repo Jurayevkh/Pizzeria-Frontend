@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
 .navbar {
     display: flex;
     height: 96px;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    gap:68.52px; 
+    /* gap:34px;  */
     }
   
   .logo-container {
+    margin-left: 150px;
     display: flex;
     gap: 20px;
-    width: 828.84px;
+    width: 414.84px;
     height: 53px;
     align-items: center;
   }
@@ -23,46 +25,212 @@
     margin-bottom: 15px;
   }
   
-  .menu-container {
+  .location-container{
     display: flex;
     height: 48px;
-    width: 148px;
     justify-content: center;
     align-items: center;
     gap: 12px;
   }
-  
-  .menu-item {
+
+  .location-svg{
     display: flex;
-    width: 48px;
-    height: 48px;
-    border-radius: 4px;
-    background: #ECFDF5;
+    width: 24px;
+    height: 24px;
+    padding: 12px;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    border-radius: 4px;
+    background: #ECFDF5;    
   }
-  
-  .icon-container {
+
+  .locatoin-svg svg{
     width: 23.04px;
     height: 24px;
-    /* Add styling for the SVG icon */
   }
-  
-  .menu-text {
+
+  .location-text{
     display: flex;
-    width: 45.83px;
-    height: 13px;
+    width: 88.84px;
+    height: 38px;
+    padding-top: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .location-text .city{
+    margin: 0;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     color: #64748B;
-    font-family: Roboto;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .location-text .city-name{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #047857;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .call-container{
+    display: flex;
+    /* width: 115px;
+    height: 24px; */
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }  
+
+  .call-container .phone-container{
+    display: flex;
+    width: 83.5px;
+    height: 24px;
+    padding: 13px 10px;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #ECFDF5;  
+  }
+
+  .call-container .phone-container svg{
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+
+  .call-container .phone-container p{
+    margin: 0;
+    width: 34.7px;
+    height: 18px;
+    flex-shrink: 0;
+    justify-content: center;
+    color: #047857;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  .call-container .text-call-center{
+    display: flex;
+    width: 125.5px;
+    /* padding: 1px 18px 2px 0px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    flex-shrink: 0;
+  }
+
+  .call-container .text-call-center p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+  .about-delivery{
+    display: flex;
+    width: 155px;
+    height: 24px;
+    padding: 12px 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #ECFDF5;
+  }
+
+  .about-delivery .work-schedule{
+    display: flex;
+    margin: 0;
+    width: 38px;
+    height: 18px;
+    justify-content: center;
+    /* padding: 1px 15.39px 1px 0px; */
+    flex-shrink: 0;
+    color: #186749;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .about-delivery .about-schedule{
+    display: flex;
+    margin: 0;
+    width: 115px;
+    height: 22px;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3F3F3F;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
   
-  /* Add styles for other components as per your structure */
+  .language{
+    margin-left:68px;
+    display: flex;
+    width: 55.69px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+  }
   
+  .language svg{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .language p{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Monserrat',sans-serif;
+    font-size:16x;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .login button{
+    width: 86.95px;
+    height: 42px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    border-radius: 30px;
+    background: #047857;
+    border: none;
+  }
