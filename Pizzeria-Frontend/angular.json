@@ -91,9 +91,13 @@
             ],
             "styles": [
                "node_modules/bootstrap/scss/bootstrap.scss",
-              "@angular/material/prebuilt-themes/indigo-pink.css"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
             ],
-            "scripts": []
+            "scripts": [
+             "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+
+            ]
           }
         }
       }
