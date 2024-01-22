@@ -31,6 +31,7 @@ body{
   border-radius: 12px;
   width: 430px;
   height: 150px;
+  font-family: 'Montserrat',sans-serif;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 15px;
@@ -141,7 +142,7 @@ body{
   align-items: center;
 }
 
-.cart-label {
+.cart-label a{
   justify-content: center;
   color: #fff;
   margin: auto 0;
